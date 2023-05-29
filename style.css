@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 
 a {
@@ -163,7 +164,8 @@ nav a {
   border-radius: 8px;
 }
 
-.main-action-text,.secondary-action-text {
+.main-action-text,
+.secondary-action-text {
   margin: 0px;
 }
 
@@ -176,7 +178,6 @@ nav a {
 .secondary-action-text {
   font-size: 14px;
   font-family: sans;
-  /* font-weight: bold; */
 }
 
 .action button {
@@ -187,4 +188,13 @@ nav a {
   padding: 4px 24px;
   border: 2px solid white;
   border-radius: 4px;
+}
+
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
 }
